@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "weather-cli"
+version = "0.1.0"
+description = "A dead-simple cli tool that tells you the weather."
+authors = ["mhegelheimer"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.27.1"
+click = "^8.0.3"
+
+[tool.poetry.scripts]
+weather_cli = "weather_cli.cli:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
