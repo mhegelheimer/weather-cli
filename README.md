@@ -1,8 +1,6 @@
 # Weather-cli
 A dead-simple, super wimpy cli weather tool.
 
-I saw something like this somewhere a while back and was bored so built I built it as a speed challenge.  Took me a little under an hour.
-
 ## Setup
 
 1. Go to https://openweathermap.org/price, sign up for the free tier and get an api key.
